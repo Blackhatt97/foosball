@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllers.UpdateMatchController">
+   <children>
+      <Label layoutX="242.0" layoutY="55.0" text="Update Score">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="253.0" layoutY="98.0" text="Tournament ID:" />
+      <Label layoutX="198.0" layoutY="240.0" text="Team A:" />
+      <Label layoutX="350.0" layoutY="240.0" text="Team B:" />
+      <TextField fx:id="idField" layoutX="257.0" layoutY="124.0" prefHeight="27.0" prefWidth="87.0" />
+      <TextField fx:id="teamB" layoutX="332.0" layoutY="266.0" prefHeight="27.0" prefWidth="87.0" />
+      <TextField fx:id="teamA" layoutX="180.0" layoutY="266.0" prefHeight="27.0" prefWidth="87.0" />
+      <Button fx:id="homeBtn" layoutX="14.0" layoutY="359.0" mnemonicParsing="false" onAction="#homeMenu" text="Home" />
+      <Button fx:id="exitBtn" layoutX="545.0" layoutY="359.0" mnemonicParsing="false" onAction="#exitAction" text="Exit" />
+      <Button fx:id="updateBtn" layoutX="269.0" layoutY="359.0" mnemonicParsing="false" onAction="#updateAction" text="Update" />
+      <TextArea fx:id="matchBox" layoutX="17.0" layoutY="161.0" prefHeight="65.0" prefWidth="568.0" />
+      <Button fx:id="searchBtn" layoutX="413.0" layoutY="124.0" mnemonicParsing="false" onAction="#searchAction" text="Search" />
+      <Label layoutX="359.0" layoutY="294.0" text="Score" />
+      <Label layoutX="207.0" layoutY="294.0" text="Score" />
+      <TextField fx:id="scoreA" layoutX="180.0" layoutY="311.0" prefHeight="27.0" prefWidth="87.0" />
+      <TextField fx:id="scoreB" layoutX="332.0" layoutY="311.0" prefHeight="27.0" prefWidth="87.0" />
+      <Label layoutX="294.0" layoutY="294.0" text="V." />
+   </children>
+</AnchorPane>

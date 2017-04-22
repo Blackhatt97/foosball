@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="primaryMenu" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllers.Controller">
+   <children>
+      <Button fx:id="player" layoutX="269.0" layoutY="109.0" mnemonicParsing="false" onAction="#playerMenu" text="Player" />
+      <Button fx:id="teamBtn" layoutX="271.0" layoutY="145.0" mnemonicParsing="false" onAction="#teamMenu" text="Team" />
+      <Button fx:id="matchBtn" layoutX="269.0" layoutY="180.0" mnemonicParsing="false" onAction="#matchMenu" text="Match" />
+      <Button fx:id="tournamentBtn" layoutX="254.0" layoutY="216.0" mnemonicParsing="false" onAction="#tournamentMenu" text="Tournament" />
+      <Button fx:id="clsBtn" layoutX="280.0" layoutY="359.0" mnemonicParsing="false" onAction="#exitProgram" text="Exit" />
+      <Label contentDisplay="CENTER" layoutX="240.0" layoutY="36.0" prefHeight="54.0" prefWidth="116.0" text="KEA Foosball" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

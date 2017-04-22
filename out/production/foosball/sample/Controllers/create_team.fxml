@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllers.CreateTeam">
+   <children>
+      <Button fx:id="exitBtn" layoutX="545.0" layoutY="359.0" mnemonicParsing="false" onAction="#exitAction" text="Exit" />
+      <Button fx:id="homeBtn" layoutX="14.0" layoutY="359.0" mnemonicParsing="false" onAction="#homeMenu" text="Home" />
+      <Button fx:id="createBtn" layoutX="262.0" layoutY="359.0" mnemonicParsing="false" onAction="#createTeam" text="Create" />
+      <TextField fx:id="player1" layoutX="87.0" layoutY="311.0" prefHeight="27.0" prefWidth="41.0" />
+      <TextField fx:id="player2" layoutX="215.0" layoutY="311.0" prefHeight="27.0" prefWidth="41.0" />
+      <TextField fx:id="teamName" layoutX="376.0" layoutY="311.0" prefHeight="27.0" prefWidth="186.0" />
+      <Label alignment="CENTER" layoutX="224.0" layoutY="29.0" prefHeight="53.0" prefWidth="152.0" text="Team Creation">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="315.0" text="Player 1:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="280.0" layoutY="315.0" text="Team Name:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="151.0" layoutY="315.0" text="Player 2:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="textArea" layoutX="32.0" layoutY="128.0" prefHeight="170.0" prefWidth="537.0" />
+      <Button fx:id="showPlayerBtn" layoutX="221.0" layoutY="82.0" mnemonicParsing="false" onAction="#showPlayers" text="Show available players" />
+   </children>
+</AnchorPane>
